@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Styles -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <script src="https://kit.fontawesome.com/0f950bae5c.js" crossorigin="anonymous"></script>
+
+    <title>Sachiko Niki | Personal Portfolio</title>
+  </head>
+  <body class="relative">
+    <div
+      class="items flex flex-col lg:flex-row absolute bg-neutral-100 h-screen w-full overflow-x-hidden lg:overflow-auto"
+    >
+      <!-- Menu -->
+      <div
+        class="hidden lg:flex bg-neutral-100 border-r-2 border-neutral-400 fixed h-screen items-center justify-center left-0 w-20"
+      >
+        <button
+          class="menuBtn bg-neutral-100 h-16 ring-neutral-300 rounded-full transition-all w-16 hover:ring-4 hover:scale-110 hover:-translate-y-2"
+        >
+          <i class="fa-solid fa-ellipsis-v text-3xl"></i>
+        </button>
+      </div>
+      <button
+        class="menuBtn flex lg:hidden bg-neutral-100 fixed h-10 items-center justify-center m-4 ring-neutral-300 rounded-full transition-all w-10 hover:ring-4"
+      >
+        <i class="fa-solid fa-ellipsis-v text-xl"></i>
+      </button>
+      <!-- Landing -->
+      <section
+        id="mainSection"
+        class="flex bg-[url('/assets/images/portfolio-bg.jpg')] bg-cover bg-fixed bg-no-repeat min-h-full justify-center lg:justify-start items-center min-w-full"
+      >
+        <div class="bg-neutral-100 lg:ml-60 lg:px-10 px-4 py-3 text-xl lg:text-4xl tracking-[0.5rem] w-max">
+          <span class="font-bold mr-4">SACHIKO</span> <span>NIKI</span>
+        </div>
+        <div class="hidden lg:block absolute animate-bounce bottom-0 font-bold m-10 right-0 text-neutral-100 text-xl">
+          <p>Scroll horizontally <i class="fa-solid fa-arrow-right ml-2"></i></p>
+        </div>
+      </section>
+      <!-- Info/ contact -->
+      <section id="infoSection" class="flex border-b-2 bg-neutral-100 min-h-full items-center min-w-full lg:pl-20">
+        <div class="flex">
+          <div class="flex flex-col ml-10 lg:ml-28">
+            <div class="font-semibold text-xl lg:text-4xl tracking-[0.5rem] w-max">Info & Contact</div>
+            <div class="flex flex-col mt-8 w-5/6 lg:w-[500px]">
+              <span
+                >Hi, I'm Sachi! I'm a computer engineer who finds joy in the world of art and expressing my creativity
+                through designing websites. When I'm not immersed in coding, you can find me admiring the cuteness of
+                ducks, a constant source of inspiration that fuels my creative endeavors. - ChatGPT</span
+              >
+            </div>
+            <div class="gap-3 flex mt-8">
+              <a
+                href="https://www.linkedin.com/in/sachiko-bernal-29087b159/"
+                target="_blank"
+                class="flex justify-center items-center rounded-full border w-10 h-10 border-neutral-900 transition-all hover:bg-neutral-900 hover:text-white hover:scale-125"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a
+                href="https://github.com/sachiiuu"
+                target="_blank"
+                class="flex justify-center items-center rounded-full border w-10 h-10 border-neutral-900 transition-all hover:bg-neutral-900 hover:text-white hover:scale-125"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a
+                href="mailto:sachikobernal@gmail.com"
+                target="_blank"
+                class="flex justify-center items-center rounded-full border w-10 h-10 border-neutral-900 transition-all hover:bg-neutral-900 hover:text-white hover:scale-125"
+              >
+                <i class="fa-regular fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Experience/ education -->
+      <section
+        id="expSection"
+        class="flex bg-neutral-100 border-b-2 lg:border-l-2 min-h-full items-center min-w-full lg:pl-20"
+      >
+        <div class="flex flex-col lg:flex-row w-full">
+          <div class="flex flex-col ml-10 lg:ml-28 lg:w-1/3">
+            <div class="font-semibold text-xl lg:text-4xl tracking-[0.5rem] w-max">Experience</div>
+            <div
+              class="flex flex-col border-l-4 border-neutral-400 mt-8 px-8 w-5/6 lg:w-full transition-all hover:translate-x-2"
+            >
+              <span class="font-semibold">PART-TIME QUALITY ASSURANCE ENGINEER</span>
+              <span>NEXBRDIGE TECHNOLOGIES INC. </span>
+              <span>OCTOBER 2022 - APRIL 2023</span>
+            </div>
+            <div
+              class="flex flex-col border-l-4 border-neutral-400 mt-8 px-8 w-5/6 lg:w-full transition-all hover:translate-x-2"
+            >
+              <span class="font-semibold">FRONT-END WEB DEVELOPER INTERN</span>
+              <span
+                >BULACAN STATE UNIVERSITY DEVELOPMENT AND INNOVATION OFFICE - INFORMATION SYSTEM AND PROCESS IMPROVEMENT
+                RESEARCH (ISPIR) CENTER</span
+              >
+              <span>JUNE 2022 - AUGUST 2022</span>
+            </div>
+          </div>
+          <div class="flex flex-col ml-10 lg:ml-28 lg:w-1/3">
+            <div class="font-semibold mt-8 lg:mt-0 text-xl lg:text-4xl tracking-[0.5rem] w-max">Education</div>
+            <div
+              class="flex flex-col border-l-4 border-neutral-400 mt-8 px-8 w-5/6 lg:w-full transition-all hover:translate-x-2"
+            >
+              <span class="font-semibold">BACHELOR OF SCIENCE IN COMPUTER ENGINEERING</span>
+              <span>BULACAN STATE UNIVERSITY | 2019 -2023</span>
+              <span>GWA: 1.25, <em>magna cum laude</em></span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Projects -->
+      <section
+        id="projectSection"
+        class="flex bg-neutral-100 lg:border-l-2 min-h-full items-center min-w-full lg:pl-20"
+      >
+        <div class="flex flex-col lg:flex-row w-full">
+          <div class="flex flex-col ml-10 lg:ml-28 w-full">
+            <div class="font-semibold text-xl lg:text-4xl tracking-[0.5rem] w-max">Projects</div>
+            <div class="flex flex-col mt-8 w-5/6 lg:w-[500px]">
+              <span class="font-semibold">UH OH STINKY...</span>
+              <span
+                >Attention, fellow hoomans! You've stumbled upon the 'Construction Zone'. Apologies for any falling
+                pixels during this construction extravaganza.</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div
+      id="menuPage"
+      class="flex fixed bg-neutral-100 h-screen min-w-full -translate-x-full transition-all ease-out duration-300"
+    >
+      <button
+        id="closeBtn"
+        class="hidden lg:block border-r-2 border-neutral-400 flex h-screen items-center justify-center w-40 transition-all hover:bg-neutral-200"
+      >
+        <i class="fa-solid fa-arrow-left text-3xl"></i>
+      </button>
+      <button
+        class="close Btn flex lg:hidden bg-neutral-800 fixed h-10 items-center justify-center m-4 ring-neutral-300 rounded-full transition-all w-10 hover:ring-4"
+      >
+        <i class="fa-solid fa-arrow-left text-neutral-100 text-xl"></i>
+      </button>
+      <div class="flex flex-col w-full">
+        <button
+          id="infoBtn"
+          class="flex border-b-2 border-neutral-400 h-32 items-end justify-center lg:justify-start lg:items-center min-w-full transition-all hover:bg-neutral-200"
+        >
+          <div class="py-4 lg:m-8 space-x-4">
+            <span class="font-medium lg:my-8">01</span>
+            <span class="font-semibold text-xl lg:text-4xl tracking-[0.5rem]">Info & Contact</span>
+          </div>
+        </button>
+        <button
+          id="expBtn"
+          class="flex border-b-2 border-neutral-400 h-32 items-end justify-center lg:justify-start lg:items-center min-w-full transition-all hover:bg-neutral-200"
+        >
+          <div class="py-4 lg:m-8 space-x-4">
+            <span class="font-medium lg:my-8">02</span>
+            <span class="font-semibold text-xl lg:text-4xl tracking-[0.5rem]">Experience & Education</span>
+          </div>
+        </button>
+        <button
+          id="projectBtn"
+          class="flex border-b-2 border-neutral-400 h-32 items-end justify-center lg:justify-start lg:items-center min-w-full transition-all hover:bg-neutral-200"
+        >
+          <div class="py-4 lg:m-8 space-x-4">
+            <span class="font-medium lg:my-8">03</span>
+            <span class="font-semibold text-xl lg:text-4xl tracking-[0.5rem]">Projects</span>
+          </div>
+        </button>
+      </div>
+    </div>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
